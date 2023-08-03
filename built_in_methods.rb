@@ -49,6 +49,21 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+my_name = "Sam"
+dogs_name = "Stout"
+
+# The insert method is called on the my_name variable, which stores the string object "Sam"
+# The insert method accepts two parameters, a string index value as an integer where a string will be inserted and a string that will be inserted
+# The two arguments passed through are: an integer 3, the index where a string will be inserted, and a string "'s" to be inserted
+# The puts command prints the return value: "Sam's"
+puts my_name.insert(3,"'s")
+
+# The index method is called on the dogs_name variable, which stores the string object "Stout"
+# The index method accepts a string argument and returns the integer index of the first ocurrance of the string argument
+# The argument passed in is a string 't', the method will find the index where it first occurs in the string stored in the variable dogs_name
+# The puts command prints the return value: 1
+puts dogs_name.index('t')
+
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
