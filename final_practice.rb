@@ -39,18 +39,42 @@ puts hello_brady
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
+def greet_person(first_name, middle_inital, last_name)
+    "You are in trouble, #{first_name} #{middle_inital} #{last_name}!"
+end
 
+scold_sam = greet_person("Sam", "T", "Tran")
+scold_brady = greet_person("Brady", "S", "Schwandt")
+
+puts scold_sam
+puts scold_brady
 # What is the return value of your method?
+    # a string "You are in trouble, first middle last!", that fill in 3 input strings into first middle last
 # How many arguments did you pass your method?
+    # 3
 # What data type was your argument(s)?
+    # strings
 
 
 # 4: Write a method named square that takes in one integer, and returns the square of that integer.
 # Bonus: Print a sentence that interpolates the return value of your square method.
+def square(num)
+    calc = num * num
+    return "The squared value of #{num} is: #{calc}"
+end
 
+squared_2 = square(2)
+squared_11 = square(11)
+
+puts squared_2
+puts squared_11
 # What is the return value of your method?
+    # a string that contains the argument integer input, and its square value in format
+    # "The squared value of argument is: square value"
 # How many arguments did you pass your method?
+    # 1
 # What data type was your argument(s)?
+    # integer
 
 
 # 5: Write a method named check_stock that satisfies the following interaction pattern:
