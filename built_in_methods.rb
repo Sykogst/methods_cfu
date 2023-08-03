@@ -9,22 +9,22 @@
 "Hello World".downcase
 
 # The include? method is called on the string object "Hello World"
-# "Hello" argument is passed; include? checks if the argument passed is included in the string 
+# "Hello" argument is passed; include? checks if the argument passed is included in the string, returns a bool - true if string containts argument passed
 # The return value is: true
 "Hello World".include?("Hello")
 
 # The end_with? method is called on the string object "Hello World"
-# "Hello" argument is passed; end_with? checks if the string ends with the argument passed
+# "Hello" argument is passed; end_with? checks if the string ends with the argument passed, returns a bool - true if ends in argument passed
 # The return value is: false
 "Hello World".end_with?("Hello")
 
 # The end_with? method is called on the string object "Hello World"
-# "rld" argument is passed; end_with? checks if the string ends with the argument passed
+# "rld" argument is passed; end_with? checks if the string ends with the argument passed, returns a bool - true if ends in argument passed
 # The return value is: true
 "Hello World".end_with?("rld")
 
 # The even? method is called on the integer object 12
-# No arguments are passed; even? checks if an integer is even
+# No arguments are passed; even? checks if an integer is even, returns a bool - true if even
 # The return value is: true
 12.even?
 
