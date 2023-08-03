@@ -5,9 +5,19 @@
 
 
 # 1: Write a method named greeting that returns a string with a general greeting. 
+def greeting
+    "Hello "
+end
 
-# What is the return value of your method?
-# How many arguments did you pass your method?
+hi = greeting
+howdy = greeting
+
+puts hi
+puts howdy
+# What is the return value of your method? 
+    # "Hello "
+# How many arguments did you pass your method? 
+    # none
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
