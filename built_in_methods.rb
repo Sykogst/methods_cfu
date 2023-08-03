@@ -72,6 +72,19 @@ puts dogs_name.index('t')
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+age = 32
+money_i_have = -100
+
+# The pred method is called on the age variable, which stores an integer 32
+# No argument is passed; the pred method returns an integer equal to the assigned integer - 1
+# The puts command prints the return value: 31
+puts age.pred
+
+# The abs method is called on the money_i_have variable, which stores an integer -100
+# No argument is passed; the abs method returns the absolute value of the integer assigned integer -100
+# The puts command prints the return value: 100
+puts money_i_have.abs
+
 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
