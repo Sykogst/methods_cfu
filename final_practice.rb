@@ -15,16 +15,27 @@ howdy = greeting
 puts hi
 puts howdy
 # What is the return value of your method? 
-    # "Hello "
+    # a string "Hello "
 # How many arguments did you pass your method? 
     # none
 
 
 # 2: Write a method named custom_greeting that returns a greeting WITH a specific name.
+def custom_greeting(name)
+    "Hello, #{name}!"
+end
 
+hello_sam = custom_greeting("Sam")
+hello_brady = custom_greeting("Brady")
+
+puts hello_sam
+puts hello_brady
 # What is the return value of your method?
+    # a string "Hello, name!", that fills in an input string for name
 # How many arguments did you pass your method?
+    # 1
 # What data type was your argument(s)?
+    # string
 
 
 # 3: Write a method named greet_person that takes in 3 strings, a first, middle, and last name, and returns a sentence with the full name.
