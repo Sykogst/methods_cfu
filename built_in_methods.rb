@@ -92,3 +92,17 @@ puts money_i_have.abs
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+pig_counts = [21, 3, 5, 12, 9, 18]
+colors = ['orange', 'green', 'purple', 'orange']
+
+# The minmax method is called on the pig_counts variable, which stores an array [21, 3, 5, 12, 9, 18]
+# No arguments are passed; the minmax method returns a two element array containing minimum and maximum values from the array in form [min, max]
+# The p command prints out the return array: [3, 21]
+p pig_counts.minmax
+
+
+# The index method is called on the colors variable, which stores an array ['orange', 'green', 'purple', 'orange']
+# One parameter is accepted in the index method; the index method returns the integer index of the FIRST instance of the argment input
+# The argument "orange" is input into the example, the puts command prints the return value: 0
+puts colors.index("orange")
