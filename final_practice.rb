@@ -31,7 +31,7 @@ hello_brady = custom_greeting("Brady")
 puts hello_sam
 puts hello_brady
 # What is the return value of your method?
-    # a string "Hello, name!", that fills in an input string for name
+    # a string "Hello, name!", that fills in an input string(argument) for name(parameter)
 # How many arguments did you pass your method?
     # 1
 # What data type was your argument(s)?
@@ -49,7 +49,7 @@ scold_brady = greet_person("Brady", "S", "Schwandt")
 puts scold_sam
 puts scold_brady
 # What is the return value of your method?
-    # a string "You are in trouble, first middle last!", that fill in 3 input strings into first middle last
+    # a string "You are in trouble, first middle last!", that fill in 3 input strings(arguments) into first middle last(parameters)
 # How many arguments did you pass your method?
     # 3
 # What data type was your argument(s)?
@@ -69,7 +69,7 @@ squared_11 = square(11)
 puts squared_2
 puts squared_11
 # What is the return value of your method?
-    # a string that contains the argument integer input, and its square value in format
+    # a string that contains the argument integer input(argument), and its square value in format
     # "The squared value of argument is: square value"
 # How many arguments did you pass your method?
     # 1
