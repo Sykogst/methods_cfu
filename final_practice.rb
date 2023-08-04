@@ -60,7 +60,7 @@ puts scold_brady
 # Bonus: Print a sentence that interpolates the return value of your square method.
 def square(num)
     calc = num * num
-    return "The squared value of #{num} is: #{calc}"
+    "The squared value of #{num} is: #{calc}"
 end
 
 squared_2 = square(2)
@@ -88,7 +88,7 @@ def check_stock(amount, item)
     else
         status = "- running LOW"
     end
-    return "#{item} #{status}"
+    "#{item} #{status}"
 end
     
 puts check_stock(4, "Coffee");
